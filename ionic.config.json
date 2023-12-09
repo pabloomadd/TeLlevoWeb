@@ -1,0 +1,7 @@
+{
+  "name": "LlevoWeb",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
