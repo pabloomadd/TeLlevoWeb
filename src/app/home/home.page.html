@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
       TeLlevoWeb
@@ -11,54 +11,115 @@
   <ion-header class="banner">
 
     <div class="ion-text-center">
-      <h1 class="banner-title">Una manera más cómoda de Viajar</h1>
+      <h1 class="banner-title">
+        Una forma más cómoda de Viajar
+      </h1>
+      <p class="banner-paragraph">
+        Viaja desde tu Sede DUOC UC hasta tu hogar sin problemas
+      </p>
     </div>
 
   </ion-header>
   
-  <body class="ion-text-center">
+  <div class="ion-text-center">
     
-    <section class="banner-paragraph">
+    <section class="banner-intro">
       
-      <p class="intro">
+      <p class="intro ion-padding">
         <br><br>
-        Pellentesque ornare mi et tincidunt gravida. Donec dapibus pellentesque semper.
-        Maecenas cursus placerat lacus, at sodales mi suscipit a. Fusce arcu eros, commodo
+        Con nuestra aplicación podrás viajar hasta en los horarios de dificil locomoción. <br><br>
+        Llegando con seguridad a la comodidad de tu hogar
        
       </p>
       <br><br>
     </section>
 
     <section class="review">
-      <ion-card>
-        <img alt="imgSesion" src="assets/imgs/sesion.png" width="500" height="500"/>
-        <ion-card-header>
-          <ion-card-title>Viaja Seguro</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          Gracias a nuestro Inicio de Sesion
-        </ion-card-content>
-      </ion-card>
-      
-      <h3>
-        Encuentra tu Viaje
-      </h3>
 
-      <h3>
-        Consulta el Mapa
-      </h3>
+      <!-- Cuerpo -->
+      <ion-grid>
+        <ion-row>
+          <ion-col class="first-col-grid">
+            <h2>
+              Viaja Seguro
+            </h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+              Excepturi, aliquam nemo in facere suscipit at delectus <br>
+              unde labore ad officia iste accusantium eaque aperiam <br>
+              laborum est voluptate totam? Modi, obcaecati?
+            </p>
+          </ion-col>
+          <ion-col class="img-grid">
+            <img alt="imgSesion" src="assets/imgs/sesion.png"/>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      
+
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <h2>
+              Encuentra tu Viaje
+            </h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+              Excepturi, aliquam nemo in facere suscipit at delectus <br>
+              unde labore ad officia iste accusantium eaque aperiam <br>
+              laborum est voluptate totam? Modi, obcaecati?
+            </p>
+          </ion-col>
+          <ion-col class="img-grid">
+            <img alt="imgSesion" src="assets/imgs/viajes.png"/>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      
+
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <h2>
+              Mapa de Rutas
+            </h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+              Excepturi, aliquam nemo in facere suscipit at delectus <br>
+              unde labore ad officia iste accusantium eaque aperiam <br>
+              laborum est voluptate totam? Modi, obcaecati?
+            </p>
+          </ion-col>
+          <ion-col class="img-grid">
+            <img alt="imgSesion" src="assets/imgs/rutas.png"/>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
     </section>
 
     <section class="dowload">
       <h2>
         Descarga nuestra app
       </h2>
+      <p>
+        Obtén nuestra Aplicacion ahora
+      </p>
+      <div>
+        <div class="qr-code">
+          <img class="ion-text-center"  src="assets/imgs/download.png">
+        </div>
+
+        <div>
+          <ion-button>
+            Descargar
+          </ion-button>
+        </div>        
+        
+      </div>
     </section>
 
-  </body>
+  </div>
 
-  <footer>
-    sss
-  </footer>
 
 </ion-content>
