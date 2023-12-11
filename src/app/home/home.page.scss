@@ -28,17 +28,36 @@
   font-style: oblique;
 }
 
-ion-card-title{
-  font-weight: bold;
+.text-grid{
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 
-img-grid{
-  width: 700px;
-  height: 700px;
-  min-inline-size: 300px;
+.mobile-view{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-view {
+    display: block; /* Muestra solo en dispositivos con un ancho de 768px o más */
+  }
+}
+
+.web-view{
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .web-view {
+    display: block; /* Muestra solo en dispositivos con un ancho de 768px o más */
+  }
 }
 
 .qr-code{
   width: 200px;
   height: 200px;
+}
+
+.footer{
+  background-color: rgb(37, 37, 37);
 }

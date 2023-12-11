@@ -23,6 +23,7 @@
   
   <div class="ion-text-center">
     
+    
     <section class="banner-intro">
       
       <p class="intro ion-padding">
@@ -34,16 +35,17 @@
       <br><br>
     </section>
 
+
     <section class="review">
 
       <!-- Cuerpo -->
       <ion-grid>
         <ion-row>
-          <ion-col class="first-col-grid">
-            <h2>
+          <ion-col class="text-grid">
+            <h2 class="title-grid">
               Viaja Seguro
             </h2>
-            <p>
+            <p class="para-grid">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
               Excepturi, aliquam nemo in facere suscipit at delectus <br>
               unde labore ad officia iste accusantium eaque aperiam <br>
@@ -51,6 +53,7 @@
             </p>
           </ion-col>
           <ion-col class="img-grid">
+            <br><br>
             <img alt="imgSesion" src="assets/imgs/sesion.png"/>
           </ion-col>
         </ion-row>
@@ -59,11 +62,11 @@
 
       <ion-grid>
         <ion-row>
-          <ion-col>
-            <h2>
+          <ion-col class="text-grid">
+            <h2 class="title-grid">
               Encuentra tu Viaje
             </h2>
-            <p>
+            <p class="para-grid">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
               Excepturi, aliquam nemo in facere suscipit at delectus <br>
               unde labore ad officia iste accusantium eaque aperiam <br>
@@ -71,6 +74,7 @@
             </p>
           </ion-col>
           <ion-col class="img-grid">
+            <br><br>
             <img alt="imgSesion" src="assets/imgs/viajes.png"/>
           </ion-col>
         </ion-row>
@@ -79,11 +83,11 @@
 
       <ion-grid>
         <ion-row>
-          <ion-col>
-            <h2>
+          <ion-col class="text-grid">
+            <h2 class="title-grid">
               Mapa de Rutas
             </h2>
-            <p>
+            <p class="para-grid">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
               Excepturi, aliquam nemo in facere suscipit at delectus <br>
               unde labore ad officia iste accusantium eaque aperiam <br>
@@ -91,6 +95,7 @@
             </p>
           </ion-col>
           <ion-col class="img-grid">
+            <br><br>
             <img alt="imgSesion" src="assets/imgs/rutas.png"/>
           </ion-col>
         </ion-row>
@@ -98,28 +103,50 @@
 
     </section>
 
+    <br><br><br><br>
+    
     <section class="dowload">
+
       <h2>
         Descarga nuestra app
       </h2>
-      <p>
-        Obtén nuestra Aplicacion ahora
-      </p>
+      
       <div>
-        <div class="qr-code">
-          <img class="ion-text-center"  src="assets/imgs/download.png">
-        </div>
-
-        <div>
-          <ion-button>
-            Descargar
-          </ion-button>
-        </div>        
-        
+                
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <div class="mobile-view">
+                <ion-button (click)="irLink()">
+                  <ion-icon slot="end" name="download"></ion-icon>
+                    Descargar
+                </ion-button>
+                <p>
+                  Se descargará e instalara la App
+                </p>
+              </div>
+              
+              <div class="web-view">
+                <p>
+                  Escanea el codigo QR <br>
+                  y comenzará tu descarga</p>
+                <img class="qr-code"  src="assets/imgs/download.png">
+              </div>
+              
+            </ion-col>
+          </ion-row>
+        </ion-grid>
       </div>
     </section>
 
   </div>
+  <br><br><br><br><br>
+  <ion-footer class="ion-text-center">
+    <ion-toolbar>
+      <ion-title>Contacto</ion-title>
+      <p>info&#64;tellegoapp.com</p>
+    </ion-toolbar>
+  </ion-footer>
 
 
 </ion-content>
