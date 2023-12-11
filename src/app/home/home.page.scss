@@ -49,22 +49,22 @@
 
 .title-grid{
   font-family: Jazz LET;
-  font-size: 35px;
+  font-size: clamp(1.5em, 3vw, 35px);
   letter-spacing: 2px;
   font-weight: 600;
 }
 
 .para-grid{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  word-spacing: 3px;
+  font-size: clamp(0.8em, 3vw, 20px);
+  word-spacing: 2px;
   letter-spacing: 1px;
   text-align-last: center;
   line-height: 40px;
 }
 
 .descarga{
-  font-size: 30px;
+  font-size: clamp(1.3em, 3vw, 30px);
   text-shadow: 0 0 10px rgb(227, 154, 154)
 }
 
@@ -95,4 +95,8 @@
 
 .footer{
   background-color: rgb(37, 37, 37);
+}
+
+.title-footer{
+  font-size: clamp(1.0em, 3vw, 20px);
 }
