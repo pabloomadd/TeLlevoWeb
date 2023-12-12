@@ -63,6 +63,15 @@
   line-height: 40px;
 }
 
+img{
+  padding-top: 50px;
+  width: 40%;
+  height: auto;
+
+  min-width: 180px;
+  min-height: auto;
+}
+
 .descarga{
   font-size: clamp(1.3em, 3vw, 30px);
   text-shadow: 0 0 10px rgb(227, 154, 154)
