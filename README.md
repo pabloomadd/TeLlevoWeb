@@ -1,1 +1,1 @@
-Página complementaria de TeLlevoApp.
+Página presentación de TeLlevoApp.
