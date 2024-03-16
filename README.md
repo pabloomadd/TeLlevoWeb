@@ -1,3 +1,3 @@
 Página presentación de TeLlevoApp.
 
-Demostración: https://tellevomap.netlify.app/home
+Demostración: https://tellevomap.netlify.app
