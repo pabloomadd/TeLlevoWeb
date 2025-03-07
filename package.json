@@ -2,7 +2,7 @@
   "name": "tellevoweb",
   "version": "1.0.0",
   "author": "pabloomadd",
-  "homepage": "https://ionicframework.com/",
+  "homepage": "",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
