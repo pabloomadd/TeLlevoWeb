@@ -1,7 +1,26 @@
-TeLlevoWeb es una página web con enfoque en la presentación y descarga de la aplicación te [LlevoMap](https://github.com/pablogonzamad/TeLlevoMap). Que muestra una visión general del funcionameinto de la aplicación móvil.
+### FUNCIONES:
 
-Demostración en [Netlify](https://tellevomap.netlify.app)
+- Presentar Aplicación Android TeLlevo Map
+- Descarga de la Aplicación
+- Responsive
 
-## Tecnologías Utilizadas
-- Front-End: HTML CSS y Typescript
-- Ionic Framework
+### TECNOLOGÍAS UTILIZADAS:
+
+- Html
+- Css 3
+- Bootstrap v5.3
+- Angular v19
+
+### CHANGELOG
+
+#### v1.1.0:
+
+- Actualizado de Fuentes a Helvetica
+- Actualizado de Imágenes a Aplicación v1.1.0
+- Actualizado a Angular v19
+- Eliminado Ionic v7
+
+#### v1.0.0:
+
+- Imágenes de Aplicación v1.0.0
+- Ionic v7

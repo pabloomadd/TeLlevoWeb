@@ -5,8 +5,8 @@
     <h1 class="banner-title">
       TE LLEVO
     </h1>
-    <p class="banner-paragraph">
-      Viaja desde tu Sede DUOC UC sin problemas
+    <p class="banner-subtl">
+      Viaja sin preocupaciones
     </p>
   </div>
 
@@ -18,14 +18,10 @@
 
     <p class="intro text-center">
       CÓMODO
-
-      SEGURO
-
-      RÁPIDO
-
       SENCILLO
-
+      SEGURO
     </p>
+
 
   </section>
 
@@ -35,33 +31,30 @@
     <div class="row">
       <div class="col-6 text-col">
         <h2 class="title-grid">
-          VIAJA SEGURO
+          ENCUENTRA TU VIAJE
         </h2>
         <p class="para-grid">
-          La aplicación TeLLevo está pensada para la comodidad
-          y seguridad de los usuarios, mantiene la confidencialidad
-          de la información y conecta de manera segura y fácil a aquellos
-          estudiantes que necesiten llegar sanos y salvos a su hogar.
+          Consulta el recorrido que más te convenga
+          y únete al viaje, sin preocuparte por
+          el tranpsorte público.
+
         </p>
       </div>
       <div class="col-6 img-col">
-        <img alt="imgSesion" src="assets/imgs/sesion.png" />
+        <img alt="imgSesion" src="assets/imgs/trips.png" />
       </div>
     </div>
 
     <div class="row">
       <div class="col-6 img-col">
-        <img alt="imgSesion" src="assets/imgs/viajes.png" />
+        <img alt="imgSesion" src="assets/imgs/viewTrip.png" />
       </div>
       <div class="col-6 text-col">
         <h2 class="title-grid">
-          ENCUENTRA TU VIAJE
+          VE SU RUTA
         </h2>
         <p class="para-grid">
-
-          Para llegar a tu destino, solo debes ingresar a la app
-          y encontrar el viaje que te convenga. Con solo dos clicks
-          no tendrás que preocuparte por tomar la micro o el metro.
+          Puedes ver en todo momento la ruta que esta tomando tu viaje actual
         </p>
       </div>
     </div>
@@ -70,18 +63,16 @@
     <div class="row row-final">
       <div class="col-6 text-col">
         <h2 class="title-grid">
-          MAPEA TUS RUTAS
+          VIAJA SEGURO
         </h2>
         <p class="para-grid">
-
-          Tras confirmar el viaje, podrás encontrar en el mapa
-          la ruta que tomará tu compañero conductor para llevarte
-          a tu destino. Antes, durante y después del viaje podrás
-          visualizar las rutas que tomaste en tus viajes con TeLLevo.
+          Al confirmar el viaje, podrás ver sus detalles, tales como:
+          Ruta, Inicio y Destino, Conductor, etc.
+          Así te aseguras que tendrás un buen viaje.
         </p>
       </div>
       <div class="col-6 img-col">
-        <img alt="imgRutas" src="assets/imgs/rutas.png" />
+        <img alt="imgRutas" src="assets/imgs/tripDet.png" />
       </div>
     </div>
 
@@ -91,46 +82,46 @@
   <section class="dowload text">
 
     <h2 class="descarga">
-      Descarga TeLLevo aquí
+      Descarga TeLLevo!
     </h2>
 
     <div class="container">
 
       <div class="row">
         <div class="col-12">
-          <div class="mobile-view">
-            <button class="btn btn-primary" (click)="irLink()">
-              Descargar
-            </button>
+          <!-- Vista Móvil -->
+          <div class="mobile-view d-sm-none">
+            <a href="https://drive.google.com/file/d/1AHe-s-ZuzZ8VOahL0umtwK_0C1mF9le9/view?usp=drive_link">
+              <button class="btn btn-success">
+                Descargar
+              </button>
+            </a>
             <p>
               Se descargará e instalara la App
             </p>
           </div>
 
-          <div class="web-view">
+          <!-- Vista Pc -->
+          <div class="web-view d-none d-sm-block">
             <p>
+              Escanea el QR
+              para descargar la App</p>
 
-              Escanea el codigo QR
-              y comenzará tu descarga</p>
-
-            <img class="qr-code" src="assets/imgs/download.png">
+            <img class="qr-code" src="assets/imgs/qr.svg">
           </div>
 
+          <p class="opacity-50">Sólo disponible para Android</p>
         </div>
       </div>
+
+      <!-- Actualizar Link de la App -->
 
     </div>
   </section>
 
+  <footer>
+    <h6>&copy; {{this.fecha}} TeLlevo by <a class="link" target="_blank"
+        href="https://github.com/pabloomadd">pabloomadd</a></h6>
+    <h6>Todos los Derechos Reservados</h6>
+  </footer>
 </div>
-
-<footer class="text-center text">
-
-  <p class="title-footer ion-padding">
-    Contacto
-  </p>
-  <p class="ion-text-center">
-    info&#64;tellevoapp.com
-  </p>
-
-</footer>
